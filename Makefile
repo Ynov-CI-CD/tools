@@ -71,4 +71,4 @@ restart: stop start
 
 .PHONY: logs
 logs:
-	docker-compose logs -f
+	$(DOCKER_COMPOSE) logs -f
